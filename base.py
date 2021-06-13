@@ -50,7 +50,7 @@ print(correctCamerasDf)
 
 #create flask api
 app = flask.Flask(__name__, template_folder='code')
-app.config["DEBUG"] = True
+app.config["DEBUG"] = False
 
 #route index, give data and markers as datasets
 #data = entire dataframe as dictionary in records format [{column -> value}, … , {column -> value}]
